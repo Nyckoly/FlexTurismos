@@ -13,6 +13,17 @@ ul li a{
     text-decoration: none;
     color: white;
 }
+header{
+    /* width: 100%; */
+    background-color: #132f5c;
+    height: 100px;
+    color: white;
+}
+.container{
+    max-width: 992px;
+    min-width: 320px;
+    margin: 0 auto;
+}
 .menu{
     display: flex;
     max-width: 992px;
@@ -21,12 +32,6 @@ ul li a{
     justify-content: space-between;
     height: 100%;
     align-items: center;
-}
-header{
-    /* width: 100%; */
-    background-color: #132f5c;
-    height: 100px;
-    color: white;
 }
 .list-item{
     display: flex;
@@ -57,4 +62,41 @@ header{
     display: inline-block;
     text-align: center;
     line-height: 50px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.quem-somos{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.quem-somos h2{
+    font-size: 32px;
+    color: #132f5c;
+    border-left: #132f5c solid 4px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.quem-somos img{
+    min-width: 420px;
+}
+.container-externo{
+    background-color: #132f5c;
+    width: 100%;
+}
+#servicos{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#servicos h2{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.list-servicos{
+    display: flex;
+    justify-content: space-between;
 }
